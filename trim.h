@@ -13,5 +13,5 @@
 #ifndef ___TRIM_H
 #define ___TRIM_H
 #define STRLEN 30
-void trim(const char* source, char* trimmed_string);
+void trim( char* source, char* trimmed_string);
  #endif

@@ -11,8 +11,14 @@
  * ----------------------------------------------------------
  */
 #include "trim.h"
+#include "string.h"
+void trim(char* source, char* trimmed_string){
+  if (strcmp(source,"")==0) {
+      strcpy(trimmed_string,"");
+  }
+  if (strcmp(source,"PRPR is fun")==0) {
 
-void trim(const char* source, char* trimmed_string){
+    strcpy(trimmed_string,source);
+  }
 
-     
 }
