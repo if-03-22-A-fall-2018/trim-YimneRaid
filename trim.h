@@ -14,4 +14,5 @@
 #define ___TRIM_H
 #define STRLEN 30
 void trim( char* source, char* trimmed_string);
+char *trimwhitespace(char *str);
  #endif
