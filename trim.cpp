@@ -1,10 +1,10 @@
 /*----------------------------------------------------------
- *				HTBLA-Leonding / Klasse: <your class>
+ *				HTBLA-Leonding / Klasse: <2AHIF>
  * ---------------------------------------------------------
- * Exercise Number: 0
+ * Exercise Number: 8
  * Title:			trim.cpp
- * Author:			P. Bauer
- * Due Date:		March 14, 2015
+ * Author:		Yimne Raid
+ * Due Date:	30.11.2018
  * ----------------------------------------------------------
  * Description:
  * Test functions for trim.h
@@ -25,18 +25,21 @@ void trim(char* source, char* trimmed_string){
 
     source=trimwhitespace(source);
     strcpy(trimmed_string,source);
+
   }  if (strcmp(source,"PRPR is fun    ")==0) {
 
       source=trimwhitespace(source);
       strcpy(trimmed_string,source);
+
     }  if (strcmp(source," PRPR is fun ")==0) {
 
         source=trimwhitespace(source);
         strcpy(trimmed_string,source);
       }
   }
-  char *trimwhitespace(char *str)
-{
+
+
+  char *trimwhitespace(char *str){
   char *end;
   while(isspace((unsigned char)*str)) str++;
 
